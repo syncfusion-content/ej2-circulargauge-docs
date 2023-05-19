@@ -15,7 +15,7 @@ domainurl: ##DomainURL##
 
 The Circular Gauge component do not support exporting with annotations. This is because the annotations are intended to render any elements in the Circular Gauge component such as text, images, or custom elements. Since Circular Gauge is a SVG based control, the annotations can be rendered as **foreignObject** element. However, some web browsers do not support it.  As a workaround, we can achieve the same in the sample level.
 
-The Circular Gauge with annotations can be exported in PNG, JPEG, and PDF formats. Similarly, the tooltip template can be exported as **foreignObject** elements. The example below demonstrates to export the Circular Gauge with annotations.
+The Circular Gauge with annotations can be exported in **PNG**, **JPEG**, and **PDF** formats. Similarly, the tooltip template can be exported as **foreignObject** elements. The example below demonstrates to export the Circular Gauge with annotations.
 
 {% if page.publishingplatform == "typescript" %}
 
