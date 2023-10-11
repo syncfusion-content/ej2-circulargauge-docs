@@ -70,7 +70,7 @@ var circulargauge = new ej.circulargauge.CircularGauge({
             animation: { duration: 900 }
         }, {
             type: 'Marker', value: 12, markerShape: 'Image',
-            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/athletics.png',
+            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/athletic.png',
             radius: '0%', markerWidth: 90, markerHeight: 90,
             animation: { duration: 0 }
         }, {
@@ -80,12 +80,12 @@ var circulargauge = new ej.circulargauge.CircularGauge({
             animation: { duration: 1500 }
         }, {
             type: 'Marker', value: 0.1, markerShape: 'Image',
-            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/man1.png',
+            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/man-1.png',
             radius: '78%', markerWidth: 28, markerHeight: 28,
             animation: { duration: 1500 }
         }, {
             type: 'Marker', value: 0.1, markerShape: 'Image',
-            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/man2.png',
+            imageUrl: 'https://ej2.syncfusion.com/javascript/demos/src/circular-gauge/images/man-2.png',
             radius: '48%', markerWidth: 28, markerHeight: 28,
             animation: { duration: 1500 }
         }]
