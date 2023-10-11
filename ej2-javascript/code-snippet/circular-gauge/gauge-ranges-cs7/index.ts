@@ -72,7 +72,7 @@ let gauge: CircularGauge = new CircularGauge({
             animation: { duration: 1200 }
         }, {
             type: 'Marker', value: 10, markerShape: 'Image',
-            imageUrl: 'templates/circular-gauge/images/golfball.png',
+            imageUrl: 'https://ej2.syncfusion.com/demos/src/circular-gauge/images/golfball.png',
             radius: '48%', markerWidth: 28, markerHeight: 28,
             animation: { duration: 900 }
         }, {
