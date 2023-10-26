@@ -63,22 +63,6 @@ npm install
 {% endhighlight %}
 {% endtabs %}
 
-## Import the Syncfusion CSS styles
-
-Syncfusion JavaScript controls come with [built-in themes](https://ej2.syncfusion.com/documentation/appearance/theme/), which are available in the installed packages. It's easy to adapt the Syncfusion JavaScript controls to match the style of your application by referring to one of the built-in themes.
-
-The quickstart application is preconfigured to use the `Material` theme in the `~/src/styles/styles.css` file, as shown below: 
-
-{% tabs %}
-{% highlight css tabtitle="style.css" %}
-
-@import "../../node_modules/@syncfusion/ej2/material.css";
-
-{% endhighlight %}
-{% endtabs %}
-
-> You can check out the [themes](https://ej2.syncfusion.com/documentation/appearance/theme/) section to know more about built-in themes and CSS reference for individual controls.
-
 ## Add Circular Gauge control to the Project
 
 The Essential JS2 Circular Gauge control can be added to the application. To get started, add the Circular Gauge control to the **app.ts** and **index.html** files using the following code.
@@ -93,10 +77,10 @@ Add an HTML div element to act as the Circular Gauge element in the **index.html
 
 <head>
   <title>EJ2 Circular Gauge</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Typescript UI Controls" />
-  <meta name="author" content="Syncfusion" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Typescript UI Controls" />
+    <meta name="author" content="Syncfusion" />
 </head>
 
 <body>
