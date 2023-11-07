@@ -75,10 +75,12 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
     </head>
     <body>
         <!-- Add the HTML <circulargauge> element  -->
-        <circulargauge id="element">Circular Gauge</circulargauge>
+        <div id="element" style="display: block;">Circular Gauge</div>
         <script>
             // initialize circulargauge control
-            var circulargauge = new ej.circulargauge.CircularGauge();
+            var circulargauge = new ej.circulargauge.CircularGauge({
+                height: '400px'
+            });
             // Render initialized circulargauge.
             circulargauge.appendTo('#element');
         </script>
