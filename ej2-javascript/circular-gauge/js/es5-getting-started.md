@@ -92,16 +92,26 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 
 **Step 1:** Create an app folder `quickstart` for getting started.
 
-**Step 2:** The Essential JS 2 controls's global scripts is already hosted in the below CDN link formats.
+**Step 2:** The Essential JS 2 controls's common scripts is already hosted in the below CDN link formats.
 
-**Syntax:**
-> All Control Script: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/ej2.min.js`
+**Common Control Scripts:**
+> Syntax: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/ej2.min.js`
 
 **Example:**
 > Script: [`https://cdn.syncfusion.com/ej2/23.1.36/dist/ej2.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/dist/ej2.min.js)
+>
 
-**Individual control scripts:**
-> Script: [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js)
+**or**
+
+**Individual Control Scripts:**
+
+**Syntax**
+>`https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`
+>
+>`http://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
+
+**Example:**
+> Circular-gauge Script: [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js)
 >
 >Dependency Scripts
 >
