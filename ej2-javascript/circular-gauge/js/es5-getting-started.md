@@ -75,10 +75,12 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
     </head>
     <body>
         <!-- Add the HTML <circulargauge> element  -->
-        <circulargauge id="element">Circular Gauge</circulargauge>
+        <div id="element" style="display: block;">Circular Gauge</div>
         <script>
             // initialize circulargauge control
-            var circulargauge = new ej.circulargauge.CircularGauge();
+            var circulargauge = new ej.circulargauge.CircularGauge({
+                height: '400px'
+            });
             // Render initialized circulargauge.
             circulargauge.appendTo('#element');
         </script>
@@ -92,15 +94,36 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 
 **Step 1:** Create an app folder `quickstart` for getting started.
 
-**Step 2:** The Essential JS 2 controls's global scripts is already hosted in the below CDN link formats.
+**Step 2:** The Essential JS 2 controls's common scripts is already hosted in the below CDN link formats.
 
-**Syntax:**
-> Dependency Script: `https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
->
-> Control Script: `https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
+**Common Control Scripts:**
+> Syntax: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/ej2.min.js`
 
 **Example:**
-> Script: [`https://cdn.syncfusion.com/ej2/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`](https://cdn.syncfusion.com/ej2/ej2-circulargauge/dist/global/ej2-circulargauge.min.js)
+> Script: [`https://cdn.syncfusion.com/ej2/23.1.36/dist/ej2.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/dist/ej2.min.js)
+>
+
+**or**
+
+**Individual Control Scripts:**
+
+**Syntax**
+>`https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`
+>
+>`http://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
+
+**Example:**
+> Circular-gauge Script: [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-circulargauge/dist/global/ej2-circulargauge.min.js)
+>
+>Dependency Scripts
+>
+> [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-base/dist/global/ej2-base.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-base/dist/global/ej2-base.min.js)
+>
+> [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-data/dist/global/ej2-data.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-data/dist/global/ej2-data.min.js)
+>
+> [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-svg-base/dist/global/ej2-svg-base.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-svg-base/dist/global/ej2-svg-base.min.js)
+>
+> [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js)
 
 **Step 3:** Create a HTML page (index.html) in `~/quickstart/index.html` location and add the CDN link references. Now, add the `Circulargauge` element and initiate the `Syncfusion JavaScript (ES5) Circulargauge` control in the index.html by using following code.
 
