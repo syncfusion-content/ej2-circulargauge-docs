@@ -123,7 +123,7 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 >
 > [`https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js`](https://cdn.syncfusion.com/ej2/23.1.36/ej2-pdf-export/dist/global/ej2-pdf-export.min.js)
 
-**Step 3:** Create a HTML page (index.html) in `~/quickstart/index.html` location and add the CDN link references. Now, initiate the `Syncfusion JavaScript (ES5) Circulargauge` control in the **index.html** by using following code.
+**Step 3:** Create a HTML page (index.html) in `~/quickstart/index.html` location and add the CDN link references. Now, initiate the `Syncfusion JavaScript (ES5) Circular Gauge` control in the **index.html** by using following code.
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
@@ -136,11 +136,11 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
         
 {% previewsample "page.domainurl/code-snippet/circular-gauge/es5-getting-started-cs1" %}
 
-**Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript Circulargauge` control.
+**Step 4:** Now, run the `index.html` in web browser, it will render the `Syncfusion JavaScript Circular Gauge` control.
 
 ## Set Pointer Value
 
-You can change the pointer value in the above sample using [`value`](../api/circular-gauge/pointer/#value-number) property in [`pointers`](../api/circular-gauge/pointer).
+You can change the pointer value in the above sample using [value](../api/circular-gauge/pointer/#value-number) property in [pointers](../api/circular-gauge/pointer).
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
