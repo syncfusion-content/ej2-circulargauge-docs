@@ -94,9 +94,9 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 
 **Step 1:** Create an app folder `quickstart` for getting started.
 
-**Step 2:** The Essential JS 2 controls's common scripts is already hosted in the below CDN link formats.
+**Step 2:** The Essential JS 2 controls's common script is already hosted in the below CDN link formats.
 
-**Common Control Scripts:**
+**Common Control Script:**
 > Syntax: `https://cdn.syncfusion.com/ej2/{RELEASE_VERSION}/dist/ej2.min.js`
 
 **Example:**
