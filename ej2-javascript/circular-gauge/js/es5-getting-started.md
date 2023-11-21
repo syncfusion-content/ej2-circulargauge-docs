@@ -61,7 +61,7 @@ The [`Custom Resource Generator (CRG)`](https://crg.syncfusion.com/) is an onlin
 </html>
 ```
 
-**Step 5:** Now, add the `CircularGauge` element and initiate the `Syncfusion JavaScript (ES5) Circulargauge` control in the `~/quickstart/index.html` by using following code.
+**Step 5:** Now, initiate the `Syncfusion JavaScript (ES5) Circulargauge` control in the `~/quickstart/index.html` by using following code.
 
 ```html
 <!DOCTYPE html>
