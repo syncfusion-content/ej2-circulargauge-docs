@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Animation in ##Platform_Name## Circular gauge control | Syncfusion
-description: Learn here all about animation in the Syncfusion ##Platform_Name## Circular gauge control of Syncfusion Essential JS 2 and more.
+title: Animation in ##Platform_Name## Circular Gauge control | Syncfusion
+description: Learn here all about animation in the Syncfusion ##Platform_Name## Circular Gauge control of Syncfusion Essential JS 2 and more.
 platform: ej2-javascript
 control: Circular Gauge
 publishingplatform: ##Platform_Name##

@@ -8,7 +8,7 @@ var circulargauge = new ej.circulargauge.CircularGauge({
                     radius: '35%',
                     zIndex: 1,
                     content:
-                        '<div style="font-size:18px;margin-left: -20px;margin-top: -12px; color:#9DD55A">${value}</div>',
+                        '<div style="font-size:18px;margin-left: -20px;margin-top: -12px; color:#9DD55A">60</div>',
                 },
             ],
             radius: '80%',
