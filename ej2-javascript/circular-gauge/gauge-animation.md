@@ -34,6 +34,8 @@ The animation of the Circular Gauge is demonstrated in the following example.
         
 {% previewsample "page.domainurl/code-snippet/circular-gauge/gauge-animation-cs1" %}
 
+> Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://ej2.syncfusion.com/documentation/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
+
 {% elsif page.publishingplatform == "javascript" %}
 
 1. The axis line will be animated in the rendering direction (clockwise or anticlockwise).
@@ -54,6 +56,8 @@ The animation of the Circular Gauge is demonstrated in the following example.
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/circular-gauge/gauge-animation-cs1" %}
-{% endif %}
 
 > Only the pointer of the Circular Gauge can be animated individually, not the axis lines, ticks, labels, ranges, and annotations. You can refer this [link](https://ej2.syncfusion.com/javascript/documentation/circular-gauge/gauge-pointers#animation) to enable only pointer animation.
+
+{% endif %}
+
