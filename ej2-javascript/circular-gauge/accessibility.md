@@ -16,7 +16,7 @@ Circular Gauge has built-in accessibility features like screen reading and WAI-A
 
 ## WAI-ARIA attributes
 
-The Circular Gauge component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Circular Gauge component:
+The Circular Gauge control followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/apg/patterns/alert/) patterns to meet the accessibility. The following ARIA attributes are used in the Circular Gauge control:
 
 | Attributes | Purpose |
 | --- | --- |
@@ -25,7 +25,7 @@ The Circular Gauge component followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA
 
 ## Screen reading in Circular Gauge
 
-Accessibility in the Circular Gauge component ensures that all users, regardless of ability or disability, can use screen reading. The following Circular Gauge elements will be read aloud using screen reading software, such as Narrator for Windows.
+Accessibility in the Circular Gauge control ensures that all users, regardless of ability or disability, can use screen reading. The following Circular Gauge elements will be read aloud using screen reading software, such as Narrator for Windows.
 
 | Elements | Description |
 | --- | --- |
@@ -37,12 +37,12 @@ Accessibility in the Circular Gauge component ensures that all users, regardless
 
 ## Ensuring accessibility
 
-The Circular Gauge component's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
+The Circular Gauge control's accessibility levels are ensured through an [accessibility-checker](https://www.npmjs.com/package/accessibility-checker) and [axe-core](https://www.npmjs.com/package/axe-core) software tools during automated testing.
 
-The accessibility compliance of the Circular Gauge component is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/circular-gauge.html) in a new window to evaluate the accessibility of the Circular Gauge component with accessibility tools.
+The accessibility compliance of the Circular Gauge control is shown in the following sample. Open the [sample](https://ej2.syncfusion.com/accessibility/circular-gauge.html) in a new window to evaluate the accessibility of the Circular Gauge control with accessibility tools.
 
 {% previewsample "https://ej2.syncfusion.com/accessibility/circular-gauge.html" %}
 
 ## See also
 
-* [Accessibility in Syncfusion ##Platform_Name## components](../common/accessibility)
+* [Accessibility in Syncfusion ##Platform_Name## controls](../common/accessibility)
