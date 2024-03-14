@@ -46,7 +46,7 @@ The Circular Gauge control followed the [WAI-ARIA](https://www.w3.org/WAI/ARIA/a
 
 | Attributes | Purpose |
 | --- | --- |
-| `role=region` | It is specified in the pointer where the interactive drag and drop function is supported to update the pointer value. |
+| `role=region` | It is specified in the pointer, annotation, and title. The pointer supports the interactive drag-and-drop function to update the pointer value. |
 | `aria-label` | Provides an accessible name for the axis labels, title, legend item labels, text pointers and annotation. |
 
 ## Screen reading in Circular Gauge
